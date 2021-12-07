@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express()
+const gameOfThrone = require('./gameOfThrone.json')
 const axios = require("axios")
 
 app.get('/game-of-thrones/json', (req, res) => {
